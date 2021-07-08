@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.8
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Is32or64", "Is32or64\Is32or64.csproj", "{D64504A3-7BDC-41E5-A393-4FF75B5F70C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I32O64B", "I32O64B\I32O64B.csproj", "{D64504A3-7BDC-41E5-A393-4FF75B5F70C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

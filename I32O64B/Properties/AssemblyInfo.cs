@@ -1,18 +1,17 @@
 ﻿using System.Reflection;
 using System.Resources;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Windows;
 
 // Les informations générales relatives à un assembly dépendent de
 // l'ensemble d'attributs suivant. Changez les valeurs de ces attributs pour modifier les informations
 // associées à un assembly.
-[assembly: AssemblyTitle("I32O64")]
-[assembly: AssemblyDescription("Verify is Windows ARCH is 64 Bits or 32 Bits")]
+[assembly: AssemblyTitle("I32O64B")]
+[assembly: AssemblyDescription("Check what is your Windows architecture.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("GGLinnk")]
-[assembly: AssemblyProduct("I32O64")]
-[assembly: AssemblyCopyright("GGLinnk ©  2017")]
+[assembly: AssemblyProduct("I32O64B")]
+[assembly: AssemblyCopyright("GGLinnk @ 2017-2021")]
 [assembly: AssemblyTrademark("GGLinnk")]
 [assembly: AssemblyCulture("")]
 
@@ -51,7 +50,7 @@ using System.Windows;
 // Vous pouvez spécifier toutes les valeurs ou indiquer les numéros de build et de révision par défaut
 // en utilisant '*', comme indiqué ci-dessous :
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.1.8")]
+[assembly: AssemblyFileVersion("1.1.8.0")]
 [assembly: NeutralResourcesLanguage("fr")]
-
+[assembly: Guid("4C494E4B-3332-6F72-3634-000000010108")]
