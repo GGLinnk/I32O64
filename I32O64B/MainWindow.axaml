@@ -2,24 +2,22 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="200"
-		Width="400" Height="200"
-		MinWidth="400" MinHeight="200"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="180"
+		Width="400" Height="180"
+		MinWidth="400" MinHeight="180"
         x:Class="I32O64B.MainWindow"
-        Title="I32O64B"
+        Title="IS 32 OR 64 BIT O.S."
 		Background="#A5A5A5"
 		WindowStartupLocation="CenterScreen"
 		Icon="/Assets/Icons/I32O64B_iv3.ico">
-	<Panel>
-		<Label Foreground="#F4F4F4" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" FontFamily="Ethnocentric" FontSize="20">IS 32 OR 64 BIT O.S.</Label>
-		<Border CornerRadius="2,2,6,6" Background="#F4F4F4" Margin="5,30,5,5">
+	<!--<Label Foreground="#F4F4F4" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" FontFamily="Ethnocentric" FontSize="20">IS 32 OR 64 BIT O.S.</Label>-->
+		<Border CornerRadius="2,2,6,6" Background="#F4F4F4" Margin="5,5,5,5">
 			<Panel>
-				<StackPanel Margin="5,5,5,60" VerticalAlignment="Center">
+				<StackPanel Margin="5,5,5,65" VerticalAlignment="Center">
 					<Label Padding="0" Content="Your system architecture is" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" FontSize="24" FontFamily="Ubuntu Condensed"/>
 					<Label Padding="0" Content="?? Bits" x:Name="sysArchText" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" FontSize="36" FontFamily="Ubuntu Condensed" FontWeight="Bold"/>
 				</StackPanel>
 				<Button Click="ExitApp" Content="OK" Height="50" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="5"/>
 			</Panel>
 		</Border>
-	</Panel>
 </Window>
